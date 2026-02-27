@@ -1,5 +1,6 @@
 # Monte Carlo Policy Evaluation on User Sessions
 
+
 ## Project Overview
 
 This project implements First-Visit Monte Carlo Policy Evaluation for estimating state-value functions in a user session environment. The environment simulates user engagement states in a news-feed session with delayed and sparse rewards.
@@ -66,6 +67,14 @@ After running, the following files will be generated:
 - `convergence_plot.png` - Shows convergence of V(s) estimates over episodes
 - `episode_lengths.png` - Distribution of episode lengths
 - `terminal_rewards.png` - Distribution of terminal rewards
+
+**Convergence of value estimates:**
+
+![Convergence Plot](convergence_plot.png)
+
+**Episode length distribution:**
+
+![Episode Lengths](episode_lengths.png)
 
 ### Customization
 
